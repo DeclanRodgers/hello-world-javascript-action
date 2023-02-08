@@ -4,10 +4,10 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - name: Install Core dependencies
-        run: npm install @actions/core
-      - name: Install Action dependencies
-        run: npm install @actions/github 
+      # - name: Install Core dependencies
+      #   run: npm install @actions/core
+      # - name: Install Action dependencies
+      #   run: npm install @actions/github 
         
       - name: Hello world action step
         id: hello
